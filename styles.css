@@ -1,4 +1,26 @@
 #app {
     width: 100%;
     height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
 }
+
+canvas{
+    width: 600px;
+    height: 600px;
+    background-size: 50.1% 100%;
+    background-position: left, right ;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(to left bottom, red, cyan),
+        linear-gradient(to bottom right, red, cyan)
+        /*,
+        linear-gradient(to bottom right, red, cyan),
+        linear-gradient(to bottom left, red, cyan)*/;
+}
+
+
